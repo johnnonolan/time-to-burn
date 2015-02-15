@@ -1,0 +1,19 @@
+//- Homepage Markup
+extends ./layouts/base
+
+block content
+  .container
+    .clock-info
+      h1 Time to burn
+      p(id='ticks') Tick Tock
+      p
+        img.logo(src="/images/time.png", width="75px" onclick="tickMe()")
+      p(id='ticker-noise')
+    #shop.shop
+       ul
+        li sundial - 10
+        li pocket watch - 20 
+  code.version v0.0.1
+
+
+ script('main.js')
