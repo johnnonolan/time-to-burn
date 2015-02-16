@@ -1,4 +1,9 @@
-# Tang readme
+# Time to burn readme
 
-This is an example readme file.
-Describe your site/app here.
+Pehaps this will turn into an incremental game of some sort
+
+TOOD
+ + build a shop
+ + autoincrememt using window loop
+ + develop theme.
+ + scss working in dev mode. 
